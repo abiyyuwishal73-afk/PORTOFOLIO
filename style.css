@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nama {
+    color: cornflowerblue;
+    font-family: inherit;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 100%;
+   
+}
+
+.nav-link {
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    transition: background-color 3s ease-in-out, transform 3s ease-in-out;
+}
+
+.nav-link a {
+    color: cornflowerblue;
+    text-decoration: none;
+    
+}
+
+.nav-link a:hover {
+    color: darkblue;
+}
+
+.Full-Name {
+    font-size: 65px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.idn {
+    font-size: large;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+.idn:hover {
+    color: darkblue;
+}
+
+.Introduce {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 151px;
+    padding-bottom: 390px;
+    gap: 30px;
+}
+
+.button {
+    display: flex;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-family: monospace;  
+    background-color: cornflowerblue; 
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+.button:hover {
+   background-color: darkblue;
+   transform: scale(1.05);
+}
+
+@media (max-widht: 780px) {
+   main a {   
+   color: blue; 
+    }
+}
+
+.Project {
+    display: flex;
+    padding: 50px 70px;
+    flex-direction: row;
+    justify-content: left;
+    gap: 30px;
+    background-color: cornflowerblue;
+    padding-top: 50px;
+    font-size: larger;
+}
+
+.Myproject {
+    font-size: xx-large;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.experience {
+    display: flex;
+    padding: 50px 70px;
+    justify-content: left;
+    padding-top: 50px;
+    flex-direction: row;
+    gap: 250px;
+    font-size: larger;
+
+}
+
+.myexperience {
+    font-size: xx-large;
+    text-align: center;
+    color: cornflowerblue;
+}
+
