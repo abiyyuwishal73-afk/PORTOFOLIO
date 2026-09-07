@@ -10,7 +10,7 @@ html {
 }
 
 .nama {
-    color: cornflowerblue;
+    color: darkblue;
     font-family: inherit;
 }
 
@@ -20,12 +20,14 @@ html {
     justify-content: space-around;
     align-items: center;
     z-index: 1000;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     left: 0;
      width: 100%;
-   
 }
 
 .nav-link {
@@ -36,7 +38,7 @@ html {
 }
 
 .nav-link a {
-    color: cornflowerblue;
+    color: darkblue;
     text-decoration: none;
     
 }
