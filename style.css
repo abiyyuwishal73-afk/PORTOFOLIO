@@ -104,7 +104,7 @@ html {
     padding: 50px 70px;
     flex-direction: row;
     justify-content: left;
-    gap: 30px;
+    gap: 125px;
     background-color: cornflowerblue;
     padding-top: 50px;
     font-size: larger;
@@ -122,7 +122,7 @@ html {
     justify-content: left;
     padding-top: 50px;
     flex-direction: row;
-    gap: 250px;
+    gap: 300px;
     font-size: larger;
 
 }
