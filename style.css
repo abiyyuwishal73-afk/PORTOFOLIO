@@ -9,6 +9,11 @@ html {
     scroll-behavior: smooth;
 }
 
+.saya {
+  display: flex;
+  border-radius: 40px;
+}
+
 .nama {
     color: darkblue;
     font-family: inherit;
