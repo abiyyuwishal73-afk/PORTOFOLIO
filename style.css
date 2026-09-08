@@ -93,11 +93,6 @@ html {
    transform: scale(1.05);
 }
 
-@media (max-widht: 780px) {
-   main a {   
-   color: blue; 
-    }
-}
 
 .Project {
     display: flex;
